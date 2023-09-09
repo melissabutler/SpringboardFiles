@@ -9,3 +9,15 @@ function countDown(num){
             }
         }, 1000)
     }
+function randomGame(){
+    let num;
+    let count = 0;
+    let game = setInterval(function(){
+        num = Math.random();
+        count++;
+        if (num > .75) {
+            clearInterval;
+            console.log(`It took ${count} tries`);
+        }
+    }, 1000)
+}
