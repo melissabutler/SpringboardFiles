@@ -1,0 +1,11 @@
+function countDown(num){
+        let timer = setInterval(function(){
+            num--;
+            if (num <= 0){
+                clearInterval;
+                console.log("Done!");
+            } else {
+                console.log(num);
+            }
+        }, 1000)
+    }
