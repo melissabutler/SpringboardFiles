@@ -30,3 +30,18 @@ Part 2
 //man command opens a manual for the following command. You can navigate through using the arrow keys, and exit by pressing q
 // the ls -l command lists more information about the files in the current folder
 // the ls -a command ignores "hidden files", which are denoted by a . infront of the name, ex. .hiddenFile.txt
+//You can jump words in the terminal using Alt+F to move forward, Alt+B to move backwards
+//You move to the end of the line in the terminal using Ctrl+A
+//You jump to the end of the line in the terminal using Ctrl+E
+//You delete a word in terminal using Ctrl+w
+// The terminal is the wrapper program that runs a shell. A shell is the program that processes commands and returns an output. 
+//An absolute path is one that starts at the root directory
+// A relative path is one that begins at a parent-directory(not the root) and works from there 
+// A flag is a means of modifying the behavior a command.
+// Some flags we have used are -a, which prompts the command to show hidden files preceded by '.',
+// -l, which prompts the command to show more information about the files, typically used in conjunction with ls
+// and cp -r, which allows the copying of a directory (which would usually be blocked)
+// when combined with rm, the -rf flag allows for the deletion of a directory, which would otherwise require a different command (rmdir)
+
+
+
