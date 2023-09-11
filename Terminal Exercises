@@ -1,0 +1,32 @@
+Part 1
+melissabutler@Melissas-PC:~$ ls
+Animals
+melissabutler@Melissas-PC:~$ mkdir first
+melissabutler@Melissas-PC:~$ cd first
+melissabutler@Melissas-PC:~/first$ touch person.txt
+melissabutler@Melissas-PC:~/first$ mv person.txt another.txt
+melissabutler@Melissas-PC:~/first$ cp another.txt copy.txt
+melissabutler@Melissas-PC:~/first$ ls
+another.txt  copy.txt
+melissabutler@Melissas-PC:~/first$ rm copy.txt
+melissabutler@Melissas-PC:~/first$ ls
+another.txt
+melissabutler@Melissas-PC:~/first$ cd ..
+melissabutler@Melissas-PC:~$ ls
+Animals  first
+melissabutler@Melissas-PC:~$ cp first second
+cp: -r not specified; omitting directory 'first'
+melissabutler@Melissas-PC:~$ cp -r first second
+melissabutler@Melissas-PC:~$ ls
+Animals  first  second
+melissabutler@Melissas-PC:~$ rmdir second
+rmdir: failed to remove 'second': Directory not empty
+melissabutler@Melissas-PC:~$ rm -rf second
+melissabutler@Melissas-PC:~$ ls
+Animals  first
+melissabutler@Melissas-PC:~$
+
+Part 2
+//man command opens a manual for the following command. You can navigate through using the arrow keys, and exit by pressing q
+// the ls -l command lists more information about the files in the current folder
+// the ls -a command ignores "hidden files", which are denoted by a . infront of the name, ex. .hiddenFile.txt
